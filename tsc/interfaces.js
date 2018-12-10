@@ -1,6 +1,10 @@
 "use strict";
-/******************************************
-*  Author : Author
-*  Created On : Mon Dec 10 2018
-*  File : Interfaces.ts
-*******************************************/ 
+var automobile = {
+    brand: "BMW",
+    speed: 200,
+    speedMethod: function () {
+        console.log('this ${this.brand} is going at ${this.speed} miles an hour');
+    }
+};
+function car1() {
+}

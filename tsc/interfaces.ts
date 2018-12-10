@@ -1,5 +1,20 @@
-/******************************************
-*  Author : Author   
-*  Created On : Mon Dec 10 2018
-*  File : Interfaces.ts
-*******************************************/
+interface AutomobileInterface{
+
+    brand: string;
+    speed: number;
+    speedMethod(predkosc: number): void
+
+}
+
+const automobile: AutomobileInterface ={
+    brand: "BMW",
+    speed: 200,
+    speedMethod(){
+        console.log('this ${this.brand} is going at ${this.speed} miles an hour');
+}
+};
+
+function car1(){
+
+
+}
