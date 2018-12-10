@@ -1,11 +1,5 @@
-var myNameSpace;
-(function (myNameSpace) {
-    myNameSpace.name = "Piotr";
-    function displayData() {
-        return "Hi, my name is Paweł.";
-    }
-    myNameSpace.displayData = displayData;
-})(myNameSpace || (myNameSpace = {}));
+"use strict";
 ///<reference path="module1.ts"/>
-console.log(myNameSpace.displayData());
+var thisSpace = myNameSpace.displayData;
+console.log(thisSpace("Hello this is Paweł."));
 console.log(myNameSpace.name);

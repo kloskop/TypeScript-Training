@@ -2,8 +2,8 @@
 var myNameSpace;
 (function (myNameSpace) {
     myNameSpace.name = "Piotr";
-    function displayData() {
-        return "Hi, my name is Paweł.";
+    function displayData(value) {
+        return value;
     }
     myNameSpace.displayData = displayData;
 })(myNameSpace || (myNameSpace = {}));

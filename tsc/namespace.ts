@@ -1,4 +1,6 @@
 ///<reference path="module1.ts"/>
 
-console.log(myNameSpace.displayData());
+import thisSpace = myNameSpace.displayData;
+
+console.log(thisSpace("Hello this is Paweł."));
 console.log(myNameSpace.name);

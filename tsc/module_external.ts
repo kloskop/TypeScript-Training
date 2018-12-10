@@ -1,6 +1,4 @@
-namespace myNameSpace {
-
-    export const name = "Piotr";
+export const name = "Piotr";
 
     export function displayData(value: string){
 
@@ -8,4 +6,3 @@ namespace myNameSpace {
 
     }
 
-}
