@@ -12,3 +12,4 @@ var Tree = /** @class */ (function () {
 }());
 var tree1 = new Tree("Green leaf");
 tree1.moveLeaf();
+console.log(tree1.leaf);

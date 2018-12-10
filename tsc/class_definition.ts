@@ -1,6 +1,6 @@
 class Tree {
 
-    constructor(private leaf:string){
+    constructor(public leaf:string){
 
             this.leaf = leaf;
 
@@ -18,3 +18,4 @@ public moveLeaf(){
 let tree1 = new Tree("Green leaf");
 
 tree1.moveLeaf();
+console.log(tree1.leaf);
