@@ -8,6 +8,6 @@ var objectGenericClass = /** @class */ (function () {
     }
     return objectGenericClass;
 }());
-var object1 = new objectGenericClass("Hello!", 2);
-var object2 = new objectGenericClass(2, false);
-var object3 = new objectGenericClass(true, 7);
+var object1 = new objectGenericClass("Hello!", "2");
+var object2 = new objectGenericClass(2, "Text");
+//let object3 = new objectGenericClass<boolean,number>(true,7)
